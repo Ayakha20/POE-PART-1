@@ -42,7 +42,7 @@ public class Login {
         } else if (! checkPasswordComplexity(Password)) {
             return "The password does not meet the complexity requirements";
         } else if (!checkPhoneNumber()) {
-            return "The phone number is invalis";
+            return "The phone number is invalid";
         } else {
             return "The user has been registered successfully";
         }
@@ -58,3 +58,4 @@ public class Login {
         }
     }
     }
+
